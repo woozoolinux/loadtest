@@ -1,0 +1,5 @@
+MEM load
+$ curl -X GET  http://loadtest.apps.ocp4.example.com/api/loadtest/v1/mem/200/60
+
+CPU load
+$ curl -X GET http://loadtest-schedule-scale.apps.ocp4.example.com/api/loadtest/v1/cpu/1
